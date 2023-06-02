@@ -101,3 +101,17 @@ export const updatePro = async (req,res) => {
     })
   }
 }
+
+export const removePro = async (req, res) => {
+  try {
+    const product = await Product.findByIdAndDelete(req.params.id);
+    return res.status(200).json({
+      message: "Sản phẩm đã được xóa thành công",
+      data: product,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      message: error,
+    });
+  }
+};
