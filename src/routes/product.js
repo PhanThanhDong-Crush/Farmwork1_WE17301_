@@ -7,5 +7,6 @@ router.get( "/products", getAllPro );
 router.get( "/products/:id", getOnePro );
 router.post( "/products/add", addPro );
 router.put("/products/edit/:id", updatePro);
+router.delete("/products/:id", removePro);
 
 export default router;
