@@ -28,3 +28,17 @@ export const getAll = async function (req, res) {
     });
   }
 };
+
+export const get = async function (req, res) {
+  try {
+    const data = await Product.findOne({ _id: req.params.id });
+    if (!data) {
+      return res.status(400).json({ message: "Không có sản phẩm nào" });
+    }
+    return res.json(data);
+  } catch (error) {
+    return res.json({
+      message: error.message,
+    });
+  }
+};
