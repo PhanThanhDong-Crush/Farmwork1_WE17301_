@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "647d300f9f7d22c70544b281"
+  },
+  "name": "Áo khỏa Trung Quốc",
+  "products": [],
+  "createdAt": {
+    "$date": "2023-06-05T00:45:03.043Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:45:03.043Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d30ad9f7d22c70544b28c"
+  },
+  "name": "Váy truyền thống Hàn Quốc",
+  "products": [],
+  "createdAt": {
+    "$date": "2023-06-05T00:47:41.352Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:47:41.352Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d30ee9f7d22c70544b292"
+  },
+  "name": "Váy đầm phù dâu",
+  "products": [],
+  "createdAt": {
+    "$date": "2023-06-05T00:48:46.662Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:48:46.662Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d31439f7d22c70544b29c"
+  },
+  "name": "Đầm dạ hội, dự tiệc",
+  "products": [],
+  "createdAt": {
+    "$date": "2023-06-05T00:50:11.594Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:50:11.594Z"
+  }
+}]
