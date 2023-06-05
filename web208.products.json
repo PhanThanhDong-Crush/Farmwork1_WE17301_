@@ -1,0 +1,275 @@
+[{
+  "_id": {
+    "$oid": "647b89011331102cd45c8dc9"
+  },
+  "name": "Small Fresh Shoes",
+  "price": 21,
+  "quantity": 21,
+  "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+  "createdAt": {
+    "$date": "2023-06-03T18:40:01.761Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-03T18:40:01.761Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d305f9f7d22c70544b284"
+  },
+  "name": "Áo khỏa Hỷ phục cưới người Hoa Diên Hy Công Lược",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/04/10-1.jpg",
+  "price": 3000000,
+  "quantity": 10,
+  "description": "Áo cưới Trung Hoa có màu đỏ, đây là màu tượng trưng cho sự may mắn và hạnh phúc, có thể xua đuổi được điềm xấu, tà ma. Áo khỏa được thiết kế với kiểu dáng ôm sát người, làm tôn lên được vóc dáng của cô dâu. Áo khỏa khá kín đáo nhưng không quá cổ hũ, người con gái mặc áo khỏa vẫn toát lên được đường cong của mình với vòng eo thon gọn và bờ vai suông mượt. Áo khỏa truyền thống được may bằng chất liệu tơ lụa, trên trang phục có nhiều họa tiết thêu thùa nhấn nhá để tạo ra sự đặc sắc cho bộ trang phục. Với những đường chỉ nối ở viền tay, gấu áo, tà áo hay những chiếc khuy áo với nhiều vòng xoáy sẽ giúp cho bộ áo khỏa được nổi bật hơn. Chính vì điều này mà đòi hỏi người thợ dệt và may trang phục phải là những người tỉ mỉ, cẩn trọng và có hoa tay, tài năng. Trên áo khỏa truyền thống sẽ có những họa tiết rồng phượng được thuê bằng chỉ vàng hoặc bạc, đây chính là biểu tượng cân bằng hài hòa giữa âm và dương. Áo khỏa dành cho cô dâu và chú rể đều được may với màu sắc đỏ với mong muốn sẽ mang lại may mắn và hạnh phúc cho gia đình sau này. Trên áo khỏa dành cho chú rể cũng sẽ có những họa tiết rồng phượng như áo khỏa dành cho cô dâu. Áo khỏa truyền thống càng ngày được cách tan và cải tiến hơn, phù hợp  với thời đại. Hiện nay, áo khỏa truyền thống đã mang kiểu dáng hiện đại những vẫn giữ được nét văn hóa truyền thống của người Trung Hoa. Với tông màu đỏ đại diện cho sự may mắn tốt đẹp kết hợp với những họa tiết thiêu và đa dạng về kiểu dáng như váy đuôi cá, cáy phồng, váy tầng hoặc váy chữ A,…",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d300f9f7d22c70544b281"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:46:23.258Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:46:23.258Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d306e9f7d22c70544b286"
+  },
+  "name": "Áo khỏa Hỷ phục cưới người Hoa kết phụng tròn 2 mặt",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/05/Ao-khoa-Hy-phuc-cuoi-nguoi-Hoa-ket-phung-tron-2-mat-KN15-1.jpg",
+  "price": 3600000,
+  "quantity": 15,
+  "description": "Áo cưới Trung Hoa có màu đỏ, đây là màu tượng trưng cho sự may mắn và hạnh phúc, có thể xua đuổi được điềm xấu, tà ma. Áo khỏa được thiết kế với kiểu dáng ôm sát người, làm tôn lên được vóc dáng của cô dâu. Áo khỏa khá kín đáo nhưng không quá cổ hũ, người con gái mặc áo khỏa vẫn toát lên được đường cong của mình với vòng eo thon gọn và bờ vai suông mượt. Áo khỏa truyền thống được may bằng chất liệu tơ lụa, trên trang phục có nhiều họa tiết thêu thùa nhấn nhá để tạo ra sự đặc sắc cho bộ trang phục. Với những đường chỉ nối ở viền tay, gấu áo, tà áo hay những chiếc khuy áo với nhiều vòng xoáy sẽ giúp cho bộ áo khỏa được nổi bật hơn. Chính vì điều này mà đòi hỏi người thợ dệt và may trang phục phải là những người tỉ mỉ, cẩn trọng và có hoa tay, tài năng. Trên áo khỏa truyền thống sẽ có những họa tiết rồng phượng được thuê bằng chỉ vàng hoặc bạc, đây chính là biểu tượng cân bằng hài hòa giữa âm và dương. Áo khỏa dành cho cô dâu và chú rể đều được may với màu sắc đỏ với mong muốn sẽ mang lại may mắn và hạnh phúc cho gia đình sau này. Trên áo khỏa dành cho chú rể cũng sẽ có những họa tiết rồng phượng như áo khỏa dành cho cô dâu. Áo khỏa truyền thống càng ngày được cách tan và cải tiến hơn, phù hợp  với thời đại. Hiện nay, áo khỏa truyền thống đã mang kiểu dáng hiện đại những vẫn giữ được nét văn hóa truyền thống của người Trung Hoa. Với tông màu đỏ đại diện cho sự may mắn tốt đẹp kết hợp với những họa tiết thiêu và đa dạng về kiểu dáng như váy đuôi cá, cáy phồng, váy tầng hoặc váy chữ A,…",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d300f9f7d22c70544b281"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:46:38.871Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:46:38.871Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d308d9f7d22c70544b288"
+  },
+  "name": "Cặp áo khỏa nam – nữ phối chỉ vàng cách điệu (nữ 40, nam 26)",
+  "image": "https://ninistore.vn/wp-content/uploads/2020/01/Cap-ao-khoa-nam-nu-phoi-chi-vang-cach-dieu-nu-40-nam-26-5.jpg",
+  "price": 7500000,
+  "quantity": 5,
+  "description": "Áo cưới Trung Hoa có màu đỏ, đây là màu tượng trưng cho sự may mắn và hạnh phúc, có thể xua đuổi được điềm xấu, tà ma. Áo khỏa được thiết kế với kiểu dáng ôm sát người, làm tôn lên được vóc dáng của cô dâu. Áo khỏa khá kín đáo nhưng không quá cổ hũ, người con gái mặc áo khỏa vẫn toát lên được đường cong của mình với vòng eo thon gọn và bờ vai suông mượt. Áo khỏa truyền thống được may bằng chất liệu tơ lụa, trên trang phục có nhiều họa tiết thêu thùa nhấn nhá để tạo ra sự đặc sắc cho bộ trang phục. Với những đường chỉ nối ở viền tay, gấu áo, tà áo hay những chiếc khuy áo với nhiều vòng xoáy sẽ giúp cho bộ áo khỏa được nổi bật hơn. Chính vì điều này mà đòi hỏi người thợ dệt và may trang phục phải là những người tỉ mỉ, cẩn trọng và có hoa tay, tài năng. Trên áo khỏa truyền thống sẽ có những họa tiết rồng phượng được thuê bằng chỉ vàng hoặc bạc, đây chính là biểu tượng cân bằng hài hòa giữa âm và dương. Áo khỏa dành cho cô dâu và chú rể đều được may với màu sắc đỏ với mong muốn sẽ mang lại may mắn và hạnh phúc cho gia đình sau này. Trên áo khỏa dành cho chú rể cũng sẽ có những họa tiết rồng phượng như áo khỏa dành cho cô dâu. Áo khỏa truyền thống càng ngày được cách tan và cải tiến hơn, phù hợp  với thời đại. Hiện nay, áo khỏa truyền thống đã mang kiểu dáng hiện đại những vẫn giữ được nét văn hóa truyền thống của người Trung Hoa. Với tông màu đỏ đại diện cho sự may mắn tốt đẹp kết hợp với những họa tiết thiêu và đa dạng về kiểu dáng như váy đuôi cá, cáy phồng, váy tầng hoặc váy chữ A,…",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d300f9f7d22c70544b281"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:47:09.771Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:47:09.771Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d309a9f7d22c70544b28a"
+  },
+  "name": "Áo khỏa cưới truyền thống Trung Hoa kim sa chữ Hỷ",
+  "image": "https://ninistore.vn/wp-content/uploads/2020/09/Ao-khoa-cuoi-truyen-thong-Trung-Hoa-kim-sa-chu-Hy-KN52-6.jpg",
+  "price": 3000000,
+  "quantity": 12,
+  "description": "Áo cưới Trung Hoa có màu đỏ, đây là màu tượng trưng cho sự may mắn và hạnh phúc, có thể xua đuổi được điềm xấu, tà ma. Áo khỏa được thiết kế với kiểu dáng ôm sát người, làm tôn lên được vóc dáng của cô dâu. Áo khỏa khá kín đáo nhưng không quá cổ hũ, người con gái mặc áo khỏa vẫn toát lên được đường cong của mình với vòng eo thon gọn và bờ vai suông mượt. Áo khỏa truyền thống được may bằng chất liệu tơ lụa, trên trang phục có nhiều họa tiết thêu thùa nhấn nhá để tạo ra sự đặc sắc cho bộ trang phục. Với những đường chỉ nối ở viền tay, gấu áo, tà áo hay những chiếc khuy áo với nhiều vòng xoáy sẽ giúp cho bộ áo khỏa được nổi bật hơn. Chính vì điều này mà đòi hỏi người thợ dệt và may trang phục phải là những người tỉ mỉ, cẩn trọng và có hoa tay, tài năng. Trên áo khỏa truyền thống sẽ có những họa tiết rồng phượng được thuê bằng chỉ vàng hoặc bạc, đây chính là biểu tượng cân bằng hài hòa giữa âm và dương. Áo khỏa dành cho cô dâu và chú rể đều được may với màu sắc đỏ với mong muốn sẽ mang lại may mắn và hạnh phúc cho gia đình sau này. Trên áo khỏa dành cho chú rể cũng sẽ có những họa tiết rồng phượng như áo khỏa dành cho cô dâu. Áo khỏa truyền thống càng ngày được cách tan và cải tiến hơn, phù hợp  với thời đại. Hiện nay, áo khỏa truyền thống đã mang kiểu dáng hiện đại những vẫn giữ được nét văn hóa truyền thống của người Trung Hoa. Với tông màu đỏ đại diện cho sự may mắn tốt đẹp kết hợp với những họa tiết thiêu và đa dạng về kiểu dáng như váy đuôi cá, cáy phồng, váy tầng hoặc váy chữ A,…",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d300f9f7d22c70544b281"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:47:22.440Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:47:22.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d30ca9f7d22c70544b28e"
+  },
+  "name": "Hanbok nữ áo hồng phối váy đỏ",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/03/Cho-thue-do-hanbok-nu-o-TPHCM-ao-hong-phoi-vay-do-HB03.jpg",
+  "price": 1500000,
+  "quantity": 15,
+  "description": "Nhắc đến Hàn Quốc, người ta không thể không nghĩ ngay đến hanbok - trang phục truyền thống của người hàn quốc. Chúng ta có thể nhìn thấy hình ảnh loại trang phục này trên các chương trình thực tế của hàn quốc, những bộ phim cổ trang hay hiện đại, trên các tấm hình nghệ thuật,… Hiện nay, hanbok không chỉ là trang phục truyền thống của hàn quốc mà nó còn là một trong những trang phục được nhiều quốc gia ưa chuộng và sử dụng để mặc khi chụp ảnh ngoại ảnh, ảnh nghệ thuật,… Trong những năm gần đây, giới trẻ Việt Nam bắt đầu nổ lên rầm rộ sở thích chụp ảnh ngoại ảnh, ảnh nghệ thuật với trang phục hanbok. Những bức ảnh trông sẽ thật tươi tắn, mới lạ hơn so với những tấm ảnh chụp với những trang phục hiện đại thông thường. Tuy nhiên việc thuê được những bộ hanbok chất lượng với giá tốt không phài là điều dễ dàng. Nếu bạn còn đang phân vân không biết nên lựa chọn cửa hàng nào thì hãy đến với Cửa hàng Nini Store để tham khảo bảng giá cho thuê áo truyền thống Hàn Quốc Đẹp – Mới – Rẻ.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d30ad9f7d22c70544b28c"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:48:10.441Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:48:10.441Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d30d49f7d22c70544b290"
+  },
+  "name": "Hanbok nữ áo xanh phối váy hồng",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/03/Cho-thue-do-hanbok-nu-o-TPHCM-ao-xanh-phoi-vay-hong-HB01-4.jpg",
+  "price": 1500000,
+  "quantity": 15,
+  "description": "Nhắc đến Hàn Quốc, người ta không thể không nghĩ ngay đến hanbok - trang phục truyền thống của người hàn quốc. Chúng ta có thể nhìn thấy hình ảnh loại trang phục này trên các chương trình thực tế của hàn quốc, những bộ phim cổ trang hay hiện đại, trên các tấm hình nghệ thuật,… Hiện nay, hanbok không chỉ là trang phục truyền thống của hàn quốc mà nó còn là một trong những trang phục được nhiều quốc gia ưa chuộng và sử dụng để mặc khi chụp ảnh ngoại ảnh, ảnh nghệ thuật,… Trong những năm gần đây, giới trẻ Việt Nam bắt đầu nổ lên rầm rộ sở thích chụp ảnh ngoại ảnh, ảnh nghệ thuật với trang phục hanbok. Những bức ảnh trông sẽ thật tươi tắn, mới lạ hơn so với những tấm ảnh chụp với những trang phục hiện đại thông thường. Tuy nhiên việc thuê được những bộ hanbok chất lượng với giá tốt không phài là điều dễ dàng. Nếu bạn còn đang phân vân không biết nên lựa chọn cửa hàng nào thì hãy đến với Cửa hàng Nini Store để tham khảo bảng giá cho thuê áo truyền thống Hàn Quốc Đẹp – Mới – Rẻ.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d30ad9f7d22c70544b28c"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:48:20.883Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:48:20.883Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d31169f7d22c70544b294"
+  },
+  "name": "Đầm phù dâu – dự tiệc màu hồng ruốc Patel tay cánh tiên",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/06/Dam-phu-dau-%E2%80%93-du-tiec-mau-hong-ruoc-Patel-tay-canh-tien-PD01F.jpg",
+  "price": 1000000,
+  "quantity": 20,
+  "description": "Ngoài cô dâu chính thì dàn phù dâu trong đám cưới cũng cần được chăm chút kỹ lưỡng từ trang phục cho đến kiểu tóc và make up. Bởi vì phù dâu đẹp thì đám cưới mới trở nên đẹp hơn, hoàn hảo hơn nhưng cũng không nên lấn át cô dâu quá mức. Và nếu muốn vậy thì việc bạn thuê trang phục tại NiNiStore là sự lựa chọn chính xác nhất vì shop có rất nhiều mẫu đồ đẹp, đón đầu xu hướng cưới hỏi trong năm nay. Đến với shop bạn không cần phải băn khoăn đến vấn đề cô dâu phụ nên mặc gì mà đã có NiNiStore giúp bạn. Váy đầm phù dâu của NiNiStore toàn bộ là hàng thiết kế đặt may tại xưởng may cao cấp hoặc nhập từ Quảng Châu. Chất liệu vải mềm mịn, dày dặn mặc vào tạo cảm giác thoải mái cho người mặc mà còn chuẩn form, che những khuyết điểm trên cơ thể. Màu sắc của váy đầm phù hợp với đối tượng là phù dâu, shop có nhiều màu trông rất nhã nhặn, cả dàn phụ dâu mặc vào tạo nên đội hình cực kỳ đẹp.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d30ee9f7d22c70544b292"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:49:26.009Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:49:26.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d311e9f7d22c70544b296"
+  },
+  "name": "Đầm phụ dâu màu vàng nhạt đáng yêu",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/06/Dam-phu-dau-mau-vang-nhat-dang-yeu-PD02-39.jpg",
+  "price": 1000000,
+  "quantity": 15,
+  "description": "Ngoài cô dâu chính thì dàn phù dâu trong đám cưới cũng cần được chăm chút kỹ lưỡng từ trang phục cho đến kiểu tóc và make up. Bởi vì phù dâu đẹp thì đám cưới mới trở nên đẹp hơn, hoàn hảo hơn nhưng cũng không nên lấn át cô dâu quá mức. Và nếu muốn vậy thì việc bạn thuê trang phục tại NiNiStore là sự lựa chọn chính xác nhất vì shop có rất nhiều mẫu đồ đẹp, đón đầu xu hướng cưới hỏi trong năm nay. Đến với shop bạn không cần phải băn khoăn đến vấn đề cô dâu phụ nên mặc gì mà đã có NiNiStore giúp bạn. Váy đầm phù dâu của NiNiStore toàn bộ là hàng thiết kế đặt may tại xưởng may cao cấp hoặc nhập từ Quảng Châu. Chất liệu vải mềm mịn, dày dặn mặc vào tạo cảm giác thoải mái cho người mặc mà còn chuẩn form, che những khuyết điểm trên cơ thể. Màu sắc của váy đầm phù hợp với đối tượng là phù dâu, shop có nhiều màu trông rất nhã nhặn, cả dàn phụ dâu mặc vào tạo nên đội hình cực kỳ đẹp.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d30ee9f7d22c70544b292"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:49:34.357Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:49:34.357Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d31289f7d22c70544b298"
+  },
+  "name": "Đầm phụ dâu – dự tiệc màu Hồng hở vai",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/06/Dam-phu-dau-%E2%80%93-du-tiec-mau-Hong-ho-vai-PD04B.jpg",
+  "price": 1000000,
+  "quantity": 20,
+  "description": "Ngoài cô dâu chính thì dàn phù dâu trong đám cưới cũng cần được chăm chút kỹ lưỡng từ trang phục cho đến kiểu tóc và make up. Bởi vì phù dâu đẹp thì đám cưới mới trở nên đẹp hơn, hoàn hảo hơn nhưng cũng không nên lấn át cô dâu quá mức. Và nếu muốn vậy thì việc bạn thuê trang phục tại NiNiStore là sự lựa chọn chính xác nhất vì shop có rất nhiều mẫu đồ đẹp, đón đầu xu hướng cưới hỏi trong năm nay. Đến với shop bạn không cần phải băn khoăn đến vấn đề cô dâu phụ nên mặc gì mà đã có NiNiStore giúp bạn. Váy đầm phù dâu của NiNiStore toàn bộ là hàng thiết kế đặt may tại xưởng may cao cấp hoặc nhập từ Quảng Châu. Chất liệu vải mềm mịn, dày dặn mặc vào tạo cảm giác thoải mái cho người mặc mà còn chuẩn form, che những khuyết điểm trên cơ thể. Màu sắc của váy đầm phù hợp với đối tượng là phù dâu, shop có nhiều màu trông rất nhã nhặn, cả dàn phụ dâu mặc vào tạo nên đội hình cực kỳ đẹp.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d30ee9f7d22c70544b292"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:49:44.434Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:49:44.434Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d31369f7d22c70544b29a"
+  },
+  "name": "Đầm phù dâu – dự tiệc màu tím lệch vai",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/06/Dam-phu-dau-du-tiec-mau-tim-lech-vai-PD03A-1.jpg",
+  "price": 1000000,
+  "quantity": 20,
+  "description": "Ngoài cô dâu chính thì dàn phù dâu trong đám cưới cũng cần được chăm chút kỹ lưỡng từ trang phục cho đến kiểu tóc và make up. Bởi vì phù dâu đẹp thì đám cưới mới trở nên đẹp hơn, hoàn hảo hơn nhưng cũng không nên lấn át cô dâu quá mức. Và nếu muốn vậy thì việc bạn thuê trang phục tại NiNiStore là sự lựa chọn chính xác nhất vì shop có rất nhiều mẫu đồ đẹp, đón đầu xu hướng cưới hỏi trong năm nay. Đến với shop bạn không cần phải băn khoăn đến vấn đề cô dâu phụ nên mặc gì mà đã có NiNiStore giúp bạn. Váy đầm phù dâu của NiNiStore toàn bộ là hàng thiết kế đặt may tại xưởng may cao cấp hoặc nhập từ Quảng Châu. Chất liệu vải mềm mịn, dày dặn mặc vào tạo cảm giác thoải mái cho người mặc mà còn chuẩn form, che những khuyết điểm trên cơ thể. Màu sắc của váy đầm phù hợp với đối tượng là phù dâu, shop có nhiều màu trông rất nhã nhặn, cả dàn phụ dâu mặc vào tạo nên đội hình cực kỳ đẹp.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d30ee9f7d22c70544b292"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:49:58.805Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:49:58.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d31589f7d22c70544b29e"
+  },
+  "name": "Đầm dạ hội dự tiệc lệch vai xẻ đùi đính kim sa lấp lánh",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/06/Dam-da-hoi-du-tiec-lech-vai-xe-dui-dinh-kim-sa-lap-lanh-DH05-5.jpg",
+  "price": 12000000,
+  "quantity": 10,
+  "description": "Còn rất nhiều rất nhiều các kiểu đầm dạ hội khác chắc chắn khi đến shop khách hàng nào cũng phải trầm trồ và thích thú ngắm nhìn. Không chỉ có thiết kế đẹp mắt, cắt xẻ ấn tượng, độc đáo mà đầm còn được phối màu tuyệt đẹp nhờ mắt thẩm mỹ cao của nhà thiết kế. Toàn bộ là sản phẩm đều là hàng đặt xưởng may thiết kế riêng do NiNiStore đặt hàng nên rất ít khi đụng hàng. Shop có nhiều màu sắc trên mỗi chiếc đầm tha hồ để các cô nàng lựa chọn theo sở thích và phù hợp với mình nhất. Điều giúp nhiều người yêu thích và chuộng mua và thuê đầm dạ hội dự tiệc tại NiNiStore nữa đó là đầm được cắt may rất chuẩn form. Khi mặc lên vừa che được khuyết điểm của các cô gái mà lại giúp các nàng trở nên sang trọng, thời thượng hơn trong gu ăn mặc thời trang. Một khi đã đến buổi tiệc dạ hội dù thế nào chúng ta cũng cần chọn được chiếc đầm thật đẹp, thật lộng lẫy phải không nào. Và không đâu xa, NiNiStore có thể đáp ứng mọi nhu cầu của các cô gái.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d31439f7d22c70544b29c"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:50:32.594Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:50:32.594Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d31609f7d22c70544b2a0"
+  },
+  "name": "Đầm dạ hội dự tiệc cao cấp màu xám bạc sang trọng",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/06/Dam-da-hoi-du-tiec-cao-cap-mau-xam-bac-sang-trong-DH10-2.jpg",
+  "price": 1500000,
+  "quantity": 10,
+  "description": "Còn rất nhiều rất nhiều các kiểu đầm dạ hội khác chắc chắn khi đến shop khách hàng nào cũng phải trầm trồ và thích thú ngắm nhìn. Không chỉ có thiết kế đẹp mắt, cắt xẻ ấn tượng, độc đáo mà đầm còn được phối màu tuyệt đẹp nhờ mắt thẩm mỹ cao của nhà thiết kế. Toàn bộ là sản phẩm đều là hàng đặt xưởng may thiết kế riêng do NiNiStore đặt hàng nên rất ít khi đụng hàng. Shop có nhiều màu sắc trên mỗi chiếc đầm tha hồ để các cô nàng lựa chọn theo sở thích và phù hợp với mình nhất. Điều giúp nhiều người yêu thích và chuộng mua và thuê đầm dạ hội dự tiệc tại NiNiStore nữa đó là đầm được cắt may rất chuẩn form. Khi mặc lên vừa che được khuyết điểm của các cô gái mà lại giúp các nàng trở nên sang trọng, thời thượng hơn trong gu ăn mặc thời trang. Một khi đã đến buổi tiệc dạ hội dù thế nào chúng ta cũng cần chọn được chiếc đầm thật đẹp, thật lộng lẫy phải không nào. Và không đâu xa, NiNiStore có thể đáp ứng mọi nhu cầu của các cô gái.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d31439f7d22c70544b29c"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:50:40.965Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:50:40.965Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "647d316c9f7d22c70544b2a2"
+  },
+  "name": "Đầm dạ hội công chúa cao cấp lấp lánh",
+  "image": "https://ninistore.vn/wp-content/uploads/2019/06/Dam-da-hoi-cong-chua-cao-cap-lap-lanh-DH07.jpg",
+  "price": 1500000,
+  "quantity": 15,
+  "description": "Còn rất nhiều rất nhiều các kiểu đầm dạ hội khác chắc chắn khi đến shop khách hàng nào cũng phải trầm trồ và thích thú ngắm nhìn. Không chỉ có thiết kế đẹp mắt, cắt xẻ ấn tượng, độc đáo mà đầm còn được phối màu tuyệt đẹp nhờ mắt thẩm mỹ cao của nhà thiết kế. Toàn bộ là sản phẩm đều là hàng đặt xưởng may thiết kế riêng do NiNiStore đặt hàng nên rất ít khi đụng hàng. Shop có nhiều màu sắc trên mỗi chiếc đầm tha hồ để các cô nàng lựa chọn theo sở thích và phù hợp với mình nhất. Điều giúp nhiều người yêu thích và chuộng mua và thuê đầm dạ hội dự tiệc tại NiNiStore nữa đó là đầm được cắt may rất chuẩn form. Khi mặc lên vừa che được khuyết điểm của các cô gái mà lại giúp các nàng trở nên sang trọng, thời thượng hơn trong gu ăn mặc thời trang. Một khi đã đến buổi tiệc dạ hội dù thế nào chúng ta cũng cần chọn được chiếc đầm thật đẹp, thật lộng lẫy phải không nào. Và không đâu xa, NiNiStore có thể đáp ứng mọi nhu cầu của các cô gái.",
+  "dateAdded": "2023/06/05",
+  "categoryId": {
+    "$oid": "647d31439f7d22c70544b29c"
+  },
+  "createdAt": {
+    "$date": "2023-06-05T00:50:52.443Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T00:50:52.443Z"
+  }
+}]
