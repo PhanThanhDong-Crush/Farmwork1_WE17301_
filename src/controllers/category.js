@@ -1,4 +1,5 @@
 import Category from "../models/category";
+import product from "../models/product";
 export const getAll = async (req, res) => {
     try {
         const categories = await Category.find();
@@ -25,7 +26,13 @@ export const get = async (req, res) => {
                 message: "Không có danh mục nào",
             });
         }
-        return res.status(200).json(category)
+        const products = await product.find({ categoryId: category._id });
+
+        if (category) {
+            category.products = products
+        }
+
+        return res.status(200).json(category);
     } catch (error) {
         return res.status(500).json({
             message: "Lỗi server",
