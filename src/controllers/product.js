@@ -3,9 +3,9 @@ import Product from "../models/product";
 
 export const getAllPro = async function (req, res) {
   const {
-    _sort = "createAt",
+    _sort = "price",
     _order = "asc",
-    _limit = 10,
+    _limit = 6,
     _page = 1,
   } = req.query;
 
@@ -22,6 +22,7 @@ export const getAllPro = async function (req, res) {
     if (docs.length === 0) {
       return res.status(400).json({ message: "Không có sản phẩm nào" });
     }
+    console.log({ data: docs, totalDocs, totalPages });
     return res.status(200).json({ data: docs, totalDocs, totalPages });
   } catch (error) {
     return res.json({
