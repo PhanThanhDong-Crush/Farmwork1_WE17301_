@@ -117,3 +117,19 @@ export const new3Pro = async (req, res) => {
     });
   }
 };
+
+export const getPro_Name = async function (req, res) {
+  try {
+    const data = await Product.find({ name: { $regex: req.body.name, $options: 'i' } });
+    // $regex và $options để thực hiện tìm kiếm không phân biệt chữ hoa / chữ thườngv(case -insensitive) và tìm các từ có giống hoặc gần giống với từ khóa.
+
+    if (!data) {
+      return res.status(400).json({ message: "Không có sản phẩm nào" });
+    }
+    return res.json(data);
+  } catch (error) {
+    return res.json({
+      message: error.message,
+    });
+  }
+};
