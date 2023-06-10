@@ -69,11 +69,13 @@ export const addPro = async (req, res) => {
       message: error,
     });
   }
-}
+};
 
 export const updatePro = async (req, res) => {
   try {
-    const product = await Product.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    const product = await Product.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+    });
     if (!product) {
       return res.status(404).json({
         message: "Không tìm thấy sản phẩm",
@@ -86,9 +88,9 @@ export const updatePro = async (req, res) => {
   } catch (error) {
     return res.status(500).json({
       message: error,
-    })
+    });
   }
-}
+};
 
 export const removePro = async (req, res) => {
   try {
@@ -106,7 +108,10 @@ export const removePro = async (req, res) => {
 
 export const new3Pro = async (req, res) => {
   try {
-    const products = await Product.find().sort({ createdAt: -1 }).limit(3).exec();
+    const products = await Product.find()
+      .sort({ createdAt: -1 })
+      .limit(3)
+      .exec();
 
     return res.json({
       message: "3 sản phẩm mới nhất",
@@ -121,13 +126,35 @@ export const new3Pro = async (req, res) => {
 
 export const getPro_Name = async function (req, res) {
   try {
-    const data = await Product.find({ name: { $regex: req.body.name, $options: 'i' } });
+    const data = await Product.find({
+      name: { $regex: req.body.name, $options: "i" },
+    });
     // $regex và $options để thực hiện tìm kiếm không phân biệt chữ hoa / chữ thườngv(case -insensitive) và tìm các từ có giống hoặc gần giống với từ khóa.
 
     if (!data) {
       return res.status(400).json({ message: "Không có sản phẩm nào" });
     }
     return res.json(data);
+  } catch (error) {
+    return res.json({
+      message: error.message,
+    });
+  }
+};
+
+export const getRelatedProducts = async (req, res) => {
+  try {
+    const data = await Product.findById(req.params.id);
+    if (!data) {
+      return res.status(400).json({ message: "Không có sản phẩm nào" });
+    }
+
+    const relatedProducts = await Product.find({
+      categoryId: data.categoryId,
+      _id: { $ne: data._id },
+    });
+
+    return res.json(relatedProducts);
   } catch (error) {
     return res.json({
       message: error.message,
