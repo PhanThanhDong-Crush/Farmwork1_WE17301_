@@ -4,7 +4,7 @@ import {
   getAllPro,
   getOnePro,
   getPro_Name,
-  //getRelatedProducts,
+  getRelatedProducts,
   new3Pro,
   removePro,
   updatePro,
@@ -15,7 +15,7 @@ const router = express.Router();
 router.get("/products", getAllPro);
 router.get("/products/:id", getOnePro);
 router.get("/products-new", new3Pro);
-//router.get("/products-relate/:id", getRelatedProducts);
+router.get("/products-relate/:id", getRelatedProducts);
 router.post("/products-name", getPro_Name);
 router.post("/products/add", addPro);
 router.put("/products/edit/:id", updatePro);
