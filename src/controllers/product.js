@@ -1,5 +1,6 @@
 import { ProductSchema } from "../schemas/product";
 import Product from "../models/product";
+import Category from "../models/category";
 
 export const getAllPro = async function (req, res) {
   const {
@@ -22,8 +23,15 @@ export const getAllPro = async function (req, res) {
     if (docs.length === 0) {
       return res.status(400).json({ message: "Không có sản phẩm nào" });
     }
-    console.log({ data: docs, totalDocs, totalPages });
-    return res.status(200).json({ data: docs, totalDocs, totalPages });
+    const modifiedDocs = await Promise.all(docs.map(async (pro) => {
+      const cate = await Category.findById(pro.categoryId);
+      return {
+        ...pro._doc,
+        cateName: cate.name,
+      }
+    }))
+
+    return res.status(200).json({ data: modifiedDocs, totalDocs, totalPages });
   } catch (error) {
     return res.json({
       message: error.message,
@@ -155,6 +163,47 @@ export const getRelatedProducts = async (req, res) => {
     });
 
     return res.json(relatedProducts);
+  } catch (error) {
+    return res.json({
+      message: error.message,
+    });
+  }
+};
+
+
+export const getProductsByPriceRange = async function (req, res) {
+  const { price_min, price_max, _sort = "price", _order = "asc", _limit = 6, _page = 1 } = req.query;
+
+  const options = {
+    page: _page,
+    limit: _limit,
+    sort: {
+      [_sort]: _order === "desc" ? -1 : 1,
+    },
+  };
+
+  const priceFilter = {
+    price: {
+      $gte: parseInt(price_min), // Lọc sản phẩm có giá lớn hơn hoặc bằng price_min
+      $lte: parseInt(price_max), // Lọc sản phẩm có giá nhỏ hơn hoặc bằng price_max
+    },
+  };
+
+  try {
+    const { docs, totalDocs, totalPages } = await Product.paginate(priceFilter, options);
+    if (docs.length === 0) {
+      return res.status(400).json({ message: "Không có sản phẩm nào" });
+    }
+
+    const modifiedDocs = await Promise.all(docs.map(async (pro) => {
+      const cate = await Category.findById(pro.categoryId);
+      return {
+        ...pro._doc,
+        cateName: cate.name,
+      };
+    }));
+
+    return res.status(200).json({ data: modifiedDocs, totalDocs, totalPages });
   } catch (error) {
     return res.json({
       message: error.message,
