@@ -25,11 +25,12 @@ export const getAllPro = async function (req, res) {
     }
     const modifiedDocs = await Promise.all(docs.map(async (pro) => {
       const cate = await Category.findById(pro.categoryId);
+      const cateName = cate ? cate.name : "Unknown"; // Kiểm tra xem cate có tồn tại hay không trước khi đọc thuộc tính 'name'
       return {
         ...pro._doc,
-        cateName: cate.name,
-      }
-    }))
+        cateName,
+      };
+    }));
 
     return res.status(200).json({ data: modifiedDocs, totalDocs, totalPages });
   } catch (error) {
@@ -38,6 +39,7 @@ export const getAllPro = async function (req, res) {
     });
   }
 };
+
 
 export const getOnePro = async function (req, res) {
   try {
